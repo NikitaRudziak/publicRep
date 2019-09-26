@@ -1,0 +1,24 @@
+{
+  "name": "publicrep",
+  "version": "1.0.0",
+  "description": "Repository for everyone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaRudziak/publicRep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikitaRudziak/publicRep/issues"
+  },
+  "homepage": "https://github.com/NikitaRudziak/publicRep#readme",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}

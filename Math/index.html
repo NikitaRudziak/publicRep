@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Fredericka+the+Great|Indie+Flower|Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+      @font-face {
+        font-family: cloiser;
+        src: url(fonts/8280.ttf);
+      }
+
+      html, body, #container,#container2,#container3 {
+        width: 1000px;
+        height: 500px;
+        text-transform: uppercase;
+        font-family: cloiser, cursive;
+        /* font-family: 'Indie Flower', cursive; */
+        /* font-family: 'Bungee Shade', cursive; */
+        font-size: 1.2em;
+        color:darkred;
+      }
+
+      #container_values {
+        display: flex;
+        justify-content:space-between;
+        width: 350px;
+        margin-left: 10vw;
+      }
+    </style>
+    <title>Lab 2</title>
+  </head>
+  <body>
+    <div id="container"></div>
+    <div id="container_values">
+      <span id="euler_x"></span>
+      <span id="euler_y"></span>
+    </div>
+    <div id="container2"></div>
+    <div id="container_values">
+      <span id="euler-coshi_x"></span>
+      <span id="euler-coshi_y"></span>
+    </div>
+    <div id="container3"></div>
+    <div id="container_values">
+      <span id="runge-kutta_x"></span>
+      <span id="runge-kutta_y"></span>
+    </div>
+    <script src="https://cdn.anychart.com/js/latest/anychart-bundle.min.js"></script>
+    <script src="euler.js"></script>
+    <script src="eulercoshi.js"></script>
+    <script src="rungekutta.js"></script>
+  </body>
+</html>
