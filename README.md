@@ -1,2 +1,2 @@
 # publicRep
-Repository for everyone
+Repository for smth features
